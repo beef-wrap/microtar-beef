@@ -1,0 +1,11 @@
+FileVersion = 1
+
+[Project]
+Name = "microtar-beef"
+DefaultNamespace = "microtar"
+
+[Configs.Debug.Win64]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\x64\\microtar_d.lib"]
+
+[Configs.Release.Win64]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\x64\\microtar.lib"]
